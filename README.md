@@ -1,3 +1,2 @@
- #javascriptProbs
- A challenging problem at that.
+A challenging problem at that.
 
