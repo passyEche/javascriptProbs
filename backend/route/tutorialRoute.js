@@ -7,7 +7,7 @@ router.get('/all', async (req, res) => {
     try {
         // res.send('<h2>Hello World, what is Happening here on earth</h2>')
         const tutorial = await Tutorial.find({});
-        res.json(tutorial)
+        res.json(tutorial);
 
     } catch (error) {
         console.log(error)
